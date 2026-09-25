@@ -1,0 +1,9 @@
+# Local credentials and private-key material
+.env
+.env.*
+!.env.example
+*.p8
+*.pem
+
+# Notebook checkpoints are generated locally
+.ipynb_checkpoints/
